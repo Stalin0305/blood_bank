@@ -6,8 +6,8 @@
     <title>Home</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel='stylesheet' type='text/css' href="{{asset('bootstrap/css/bootstrap.css')}}">
-    <link rel='stylesheet' type='text/css' href="{{asset('bootstrap/css/style.css' )}}">
+    <link rel='stylesheet' type='text/css' href="{{secure_asset('bootstrap/css/bootstrap.css')}}">
+    <link rel='stylesheet' type='text/css' href="{{secure_asset('bootstrap/css/style.css' )}}">
     <script src="{{ asset('bootstrap/js/jquery.min.js' )}}"></script>
     <script src="{{ asset('bootstrap/js/bootstrap.js' )}}"></script>   
 </head>
