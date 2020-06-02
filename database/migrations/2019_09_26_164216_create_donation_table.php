@@ -20,8 +20,8 @@ class CreateDonationTable extends Migration
             $table->string('b_group')->nullable(false);
             $table->integer('quantity')->nullable(false)->default(0);
             $table->date('d_date')->nullable(false);
-            $table->foreign('donor_id')->references('id')->on('donor');
-            $table->foreign('bt_id')->references('id')->on('bloodtype');
+            // $table->foreign('donor_id')->references('id')->on('donor');
+            // $table->foreign('bt_id')->references('id')->on('bloodtype');
         });
     }
 

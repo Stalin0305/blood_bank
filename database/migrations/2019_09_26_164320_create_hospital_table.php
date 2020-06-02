@@ -20,7 +20,7 @@ class CreateHospitalTable extends Migration
             $table->biginteger('quantity')->nullable(false);
             $table->string('h_name')->nullable(false);
             $table->date('o_date')->nullable(false);
-            $table->foreign('bt_id')->references('id')->on('bloodtype');
+            // $table->foreign('bt_id')->references('id')->on('bloodtype');
         });
     }
 

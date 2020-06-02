@@ -17,8 +17,8 @@ class CreateDonordonationTable extends Migration
            $table->integer('d_id')->autoIncrement()->nullable(false);
            $table->integer('bt_id')->nullable(false);
            $table->biginteger('quantity')->nullable(false)->default(0);
-           $table->foreign('d_id')->references('id')->on('donor');
-           $table->foreign('bt_id')->references('bt_id')->on('donor');
+        //    $table->foreign('d_id')->references('id')->on('donor');
+        //    $table->foreign('bt_id')->references('bt_id')->on('donor');
         });
     }
 
