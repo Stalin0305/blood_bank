@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\admin;
 use App\donor;
 use App\donation;
@@ -84,7 +85,7 @@ class adminController extends Controller
     }
 
     public function view_blood(){
-        $res = bloodtype::all()->orderByRaw('id')->get();
+        $res = DB::table('bloodtype')->orderByRaw('id')->get();
         return view('view_blood',compact('res'));
     }
 
