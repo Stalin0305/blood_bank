@@ -84,7 +84,7 @@ class adminController extends Controller
     }
 
     public function view_blood(){
-        $res = bloodtype::all();
+        $res = bloodtype::all()->orderByRaw('id')->get();
         return view('view_blood',compact('res'));
     }
 
