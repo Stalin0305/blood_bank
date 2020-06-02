@@ -124,10 +124,11 @@ class donorController extends Controller
                 $bloodtype = 8;
                 break;
         }
-        $donordonation = new donordonation;
-        $donordonation->bt_id = $bloodtype;
+        // $donordonation = new donordonation;
+        // $donordonation->bt_id = $bloodtype;
+        // && $donordonation->save()
         $donor->bt_id = $bloodtype;
-    	if($donor->save() && $donordonation->save())
+    	if($donor->save() )
     	{
     		return redirect('/suc_register');
     	}
