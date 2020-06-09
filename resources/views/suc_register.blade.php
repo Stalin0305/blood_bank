@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Registration Sucessfull</title>
-	<link rel="stylesheet" type="text/css" href="{{ asset('bootstrap/css/register_style.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('bootstrap/css/bootstrap.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{secure_asset('bootstrap/css/register_style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{secure_asset('bootstrap/css/bootstrap.css')}}">
 </head>
 <body>
 	<div class="message container col-4">
