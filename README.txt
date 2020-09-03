@@ -24,6 +24,8 @@ In Command Prompt,run the following commands
 
 *****************************************
 Project will be running on localhost:8000 by default
+
+The project is also hosted on https://blood-bank205.herokuapp.com/
 *****************************************
 
 
